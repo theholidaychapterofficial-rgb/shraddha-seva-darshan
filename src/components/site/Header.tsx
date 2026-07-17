@@ -27,11 +27,12 @@ export function Header() {
         <Link to="/" className="flex min-w-0 items-center gap-3">
           <img
             src={logoAsset.url}
-            alt={`${useLang().t.meta.siteName} logo`}
+            alt={`${t.meta.siteName} logo`}
             className="h-12 w-12 shrink-0 rounded-full object-cover shadow-[var(--shadow-soft)] sm:h-14 sm:w-14"
             width={56}
             height={56}
           />
+
 
           <span className="min-w-0">
             <span className="block truncate font-serif text-base font-semibold leading-tight text-primary sm:text-lg">
