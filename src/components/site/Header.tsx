@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLang } from "@/i18n/LanguageProvider";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logoAsset from "@/assets/logo.jpg.asset.json";
 
 const navItems = [
   { to: "/", key: "home" as const },
@@ -24,9 +25,15 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
         <Link to="/" className="flex min-w-0 items-center gap-3">
-          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-[var(--gradient-gold)] text-primary shadow-[var(--shadow-soft)]">
-            <span className="font-serif text-xl font-semibold">ॐ</span>
-          </span>
+          <img
+            src={logoAsset.url}
+            alt={`${t.meta.siteName} logo`}
+            className="h-12 w-12 shrink-0 rounded-full object-cover shadow-[var(--shadow-soft)] sm:h-14 sm:w-14"
+            width={56}
+            height={56}
+          />
+
+
           <span className="min-w-0">
             <span className="block truncate font-serif text-base font-semibold leading-tight text-primary sm:text-lg">
               {t.meta.siteName}

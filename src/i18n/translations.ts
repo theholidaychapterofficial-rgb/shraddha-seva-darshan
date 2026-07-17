@@ -39,7 +39,7 @@ export const translations = {
         { title: "Sacred Environment", desc: "A calm, clean and consecrated space that helps you focus on devotion." },
         { title: "Complete Ritual Assistance", desc: "Brahmins, puja materials, seating and bhojana — all arranged for you." },
         { title: "Respectful Management", desc: "Ceremonies conducted with dignity, discipline and personal attention." },
-        { title: "Traditional Values", desc: "Rooted in the timeless customs of our ancestors and the guidance of Shri Kanva Matha." },
+        { title: "Traditional Values", desc: "Under the guidance of revered Gurus." },
       ],
     },
     services: {
@@ -237,7 +237,7 @@ export const translations = {
         { title: "ಪವಿತ್ರ ಪರಿಸರ", desc: "ಶ್ರದ್ಧೆಗೆ ಸಹಾಯಕವಾದ ಶಾಂತ, ಸ್ವಚ್ಛ ಹಾಗೂ ಪವಿತ್ರ ಸ್ಥಳ." },
         { title: "ಸಂಪೂರ್ಣ ವ್ಯವಸ್ಥೆ", desc: "ಬ್ರಾಹ್ಮಣರು, ಪೂಜಾಸಾಮಗ್ರಿ, ಆಸನ ಹಾಗೂ ಭೋಜನ – ಎಲ್ಲವನ್ನೂ ನಾವು ಸಿದ್ಧಪಡಿಸುತ್ತೇವೆ." },
         { title: "ಮರ್ಯಾದಾಪೂರ್ವಕ ನಿರ್ವಹಣೆ", desc: "ಘನತೆ ಹಾಗೂ ವೈಯಕ್ತಿಕ ಗಮನದೊಂದಿಗೆ ನಡೆಸುವ ಶಿಸ್ತಿನ ಸೇವೆ." },
-        { title: "ಸಾಂಪ್ರದಾಯಿಕ ಮೌಲ್ಯಗಳು", desc: "ಶ್ರೀ ಕಣ್ವಮಠದ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ ಪೂರ್ವಿಕರ ಆಚಾರವಿಚಾರಗಳಿಗೆ ನೆಲೆಯಾಗಿ." },
+        { title: "ಸಾಂಪ್ರದಾಯಿಕ ಮೌಲ್ಯಗಳು", desc: "ಪೂಜ್ಯ ಗುರುಗಳ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ." },
       ],
     },
     services: {

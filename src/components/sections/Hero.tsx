@@ -31,12 +31,22 @@ export function Hero() {
         <p className="mx-auto max-w-2xl text-base leading-relaxed text-white/90 sm:text-lg">
           {t.hero.subtitle}
         </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <Button asChild size="xl" variant="temple">
-            <Link to="/booking">{t.hero.book}</Link>
+        <div className="mt-10 flex w-full flex-col items-stretch justify-center gap-4 sm:w-auto sm:flex-row sm:items-center">
+          <Button
+            asChild
+            size="xl"
+            variant="temple"
+            className="min-w-[240px] px-8 py-6 text-base font-semibold shadow-[var(--shadow-elegant)] ring-2 ring-white/40 ring-offset-2 ring-offset-transparent transition-transform hover:scale-[1.02] sm:text-lg"
+          >
+            <Link to="/booking">📿 {t.hero.book}</Link>
           </Button>
-          <Button asChild size="xl" variant="outline" className="bg-white/10 text-white backdrop-blur hover:bg-white hover:text-primary">
-            <Link to="/contact">{t.hero.contact}</Link>
+          <Button
+            asChild
+            size="xl"
+            variant="maroon"
+            className="min-w-[240px] border-2 border-white/60 bg-white px-8 py-6 text-base font-semibold text-primary shadow-[var(--shadow-elegant)] transition-transform hover:scale-[1.02] hover:bg-white/95 sm:text-lg"
+          >
+            <Link to="/contact">✉ {t.hero.contact}</Link>
           </Button>
         </div>
       </div>
