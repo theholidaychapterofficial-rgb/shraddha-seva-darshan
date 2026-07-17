@@ -396,6 +396,6 @@ export const translations = {
       viewAll: "ಎಲ್ಲವನ್ನೂ ನೋಡಿ",
     },
   },
-} as const;
+} satisfies Record<Lang, unknown>;
 
 export type Translations = (typeof translations)["en"];
