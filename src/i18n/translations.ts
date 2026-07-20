@@ -125,9 +125,12 @@ export const translations = {
       eyebrow: "Kind Words",
       title: "What Families Share",
       items: [
-        { quote: "Our family could perform the annual Shraddha peacefully with complete guidance.", name: "Devotee Family, Yelahanka" },
-        { quote: "The arrangements were traditional, organized and spiritually fulfilling.", name: "A Grateful Family, Bengaluru" },
-        { quote: "We appreciated the calm environment and the authentic Vedic rituals.", name: "Sri & Smt. from Vidyaranyapura" },
+        { quote: "Our family could perform the annual Shraddha peacefully with complete guidance.", name: "Sri Ramakrishna Bhat & Family, Yelahanka" },
+        { quote: "The arrangements were traditional, organized and spiritually fulfilling.", name: "Smt. Lakshmi Narayanan, Malleshwaram" },
+        { quote: "We appreciated the calm environment and the authentic Vedic rituals.", name: "Sri Venkatesh Iyer, Vidyaranyapura" },
+        { quote: "Every detail of the Pitru Karya was performed with utmost shraddha and care.", name: "Sri Srinivasa Murthy, Jayanagar" },
+        { quote: "The priests are truly learned and guided us patiently through every step.", name: "Smt. Padmavathi Rao, Rajajinagar" },
+        { quote: "A blessed place — we felt our ancestors were honoured in the truest tradition.", name: "Sri Krishnamurthy Sastry, Basavanagudi" },
       ],
     },
     faq: {

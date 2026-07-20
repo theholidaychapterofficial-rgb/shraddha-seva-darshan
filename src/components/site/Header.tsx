@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useLang } from "@/i18n/LanguageProvider";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logoAsset from "@/assets/logo.jpg.asset.json";
+import logoUrl from "@/assets/logo.jpg";
 
 const navItems = [
   { to: "/", key: "home" as const },
@@ -26,7 +26,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6">
         <Link to="/" className="flex min-w-0 items-center gap-3">
           <img
-            src={logoAsset.url}
+            src={logoUrl}
             alt={`${t.meta.siteName} logo`}
             className="h-12 w-12 shrink-0 rounded-full object-cover shadow-[var(--shadow-soft)] sm:h-14 sm:w-14"
             width={56}
