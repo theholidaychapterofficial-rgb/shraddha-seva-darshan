@@ -42,6 +42,16 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
   useEffect(() => {
+    // Stale chunk after a new deploy — hard reload once to fetch the new asset manifest.
+    const msg = error?.message ?? "";
+    if (/Failed to fetch dynamically imported module|Importing a module script failed/i.test(msg)) {
+      const KEY = "__chunk_reload__";
+      if (typeof window !== "undefined" && !sessionStorage.getItem(KEY)) {
+        sessionStorage.setItem(KEY, "1");
+        window.location.reload();
+        return;
+      }
+    }
     reportLovableError(error, { boundary: "tanstack_root_error_component" });
   }, [error]);
 
