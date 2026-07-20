@@ -20,7 +20,7 @@ const ICONS = [Flame, CalendarDays, CalendarClock, Coins, Moon, Star, Circle, Ut
 
 export function ServicesSection({ compact = false }: { compact?: boolean }) {
   const { t } = useLang();
-  const items = compact ? t.services.items.slice(0, 6) : t.services.items;
+  const items = compact ? t.services.items.slice(0, 8) : t.services.items;
   return (
     <section id="services" className="bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">

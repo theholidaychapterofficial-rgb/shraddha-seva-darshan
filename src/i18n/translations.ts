@@ -125,9 +125,12 @@ export const translations = {
       eyebrow: "Kind Words",
       title: "What Families Share",
       items: [
-        { quote: "Our family could perform the annual Shraddha peacefully with complete guidance.", name: "Devotee Family, Yelahanka" },
-        { quote: "The arrangements were traditional, organized and spiritually fulfilling.", name: "A Grateful Family, Bengaluru" },
-        { quote: "We appreciated the calm environment and the authentic Vedic rituals.", name: "Sri & Smt. from Vidyaranyapura" },
+        { quote: "Our family could perform the annual Shraddha peacefully with complete guidance.", name: "Sri Ramakrishna Bhat & Family, Yelahanka" },
+        { quote: "The arrangements were traditional, organized and spiritually fulfilling.", name: "Smt. Lakshmi Narayanan, Malleshwaram" },
+        { quote: "We appreciated the calm environment and the authentic Vedic rituals.", name: "Sri Venkatesh Iyer, Vidyaranyapura" },
+        { quote: "Every detail of the Pitru Karya was performed with utmost shraddha and care.", name: "Sri Srinivasa Murthy, Jayanagar" },
+        { quote: "The priests are truly learned and guided us patiently through every step.", name: "Smt. Padmavathi Rao, Rajajinagar" },
+        { quote: "A blessed place — we felt our ancestors were honoured in the truest tradition.", name: "Sri Krishnamurthy Sastry, Basavanagudi" },
       ],
     },
     faq: {
@@ -323,9 +326,12 @@ export const translations = {
       eyebrow: "ಭಕ್ತರ ಅಭಿಪ್ರಾಯ",
       title: "ಕುಟುಂಬಗಳು ಹಂಚಿಕೊಂಡ ಮಾತು",
       items: [
-        { quote: "ಸಂಪೂರ್ಣ ಮಾರ್ಗದರ್ಶನದೊಂದಿಗೆ ನಾವು ವಾರ್ಷಿಕ ಶ್ರಾದ್ಧವನ್ನು ಶಾಂತಿಯಿಂದ ನೆರವೇರಿಸಿದೆವು.", name: "ಒಂದು ಭಕ್ತ ಕುಟುಂಬ, ಯಲಹಂಕ" },
-        { quote: "ವ್ಯವಸ್ಥೆಗಳು ಸಾಂಪ್ರದಾಯಿಕ, ಶಿಸ್ತುಬದ್ಧ ಹಾಗೂ ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಪೂರ್ಣ ಸಂತೃಪ್ತಿಕರವಾಗಿದ್ದವು.", name: "ಕೃತಜ್ಞ ಕುಟುಂಬ, ಬೆಂಗಳೂರು" },
-        { quote: "ಶಾಂತ ವಾತಾವರಣ ಹಾಗೂ ಶಾಸ್ತ್ರೋಕ್ತ ವಿಧಿಗಳು ನಮಗೆ ಬಹಳ ಇಷ್ಟವಾದವು.", name: "ಶ್ರೀ ಹಾಗೂ ಶ್ರೀಮತಿ, ವಿದ್ಯಾರಣ್ಯಪುರ" },
+        { quote: "ಸಂಪೂರ್ಣ ಮಾರ್ಗದರ್ಶನದೊಂದಿಗೆ ನಾವು ವಾರ್ಷಿಕ ಶ್ರಾದ್ಧವನ್ನು ಶಾಂತಿಯಿಂದ ನೆರವೇರಿಸಿದೆವು.", name: "ಶ್ರೀ ರಾಮಕೃಷ್ಣ ಭಟ್ ಹಾಗೂ ಕುಟುಂಬ, ಯಲಹಂಕ" },
+        { quote: "ವ್ಯವಸ್ಥೆಗಳು ಸಾಂಪ್ರದಾಯಿಕ, ಶಿಸ್ತುಬದ್ಧ ಹಾಗೂ ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಪೂರ್ಣ ಸಂತೃಪ್ತಿಕರವಾಗಿದ್ದವು.", name: "ಶ್ರೀಮತಿ ಲಕ್ಷ್ಮೀ ನಾರಾಯಣನ್, ಮಲ್ಲೇಶ್ವರಂ" },
+        { quote: "ಶಾಂತ ವಾತಾವರಣ ಹಾಗೂ ಶಾಸ್ತ್ರೋಕ್ತ ವಿಧಿಗಳು ನಮಗೆ ಬಹಳ ಇಷ್ಟವಾದವು.", name: "ಶ್ರೀ ವೆಂಕಟೇಶ್ ಅಯ್ಯರ್, ವಿದ್ಯಾರಣ್ಯಪುರ" },
+        { quote: "ಪಿತೃಕಾರ್ಯದ ಪ್ರತಿಯೊಂದು ವಿವರವನ್ನೂ ಶ್ರದ್ಧೆ ಹಾಗೂ ಕಾಳಜಿಯಿಂದ ನೆರವೇರಿಸಲಾಯಿತು.", name: "ಶ್ರೀ ಶ್ರೀನಿವಾಸ ಮೂರ್ತಿ, ಜಯನಗರ" },
+        { quote: "ವಿದ್ವಾಂಸ ಪುರೋಹಿತರು ಪ್ರತಿ ಹಂತದಲ್ಲಿಯೂ ಸಹನೆಯಿಂದ ಮಾರ್ಗದರ್ಶನ ನೀಡಿದರು.", name: "ಶ್ರೀಮತಿ ಪದ್ಮಾವತಿ ರಾವ್, ರಾಜಾಜಿನಗರ" },
+        { quote: "ಪವಿತ್ರ ಸ್ಥಳ — ನಮ್ಮ ಪಿತೃಗಳಿಗೆ ನಿಜವಾದ ಸಂಪ್ರದಾಯದಲ್ಲಿ ಗೌರವ ಸಲ್ಲಿಸಿದಂತಾಯಿತು.", name: "ಶ್ರೀ ಕೃಷ್ಣಮೂರ್ತಿ ಶಾಸ್ತ್ರಿ, ಬಸವನಗುಡಿ" },
       ],
     },
     faq: {

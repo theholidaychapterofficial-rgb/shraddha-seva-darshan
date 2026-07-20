@@ -35,8 +35,8 @@ export function Hero() {
           <Button
             asChild
             size="xl"
-            variant="temple"
-            className="min-w-[240px] px-8 py-6 text-base font-semibold shadow-[var(--shadow-elegant)] ring-2 ring-white/40 ring-offset-2 ring-offset-transparent transition-transform hover:scale-[1.02] sm:text-lg"
+            variant="maroon"
+            className="min-w-[240px] border-2 border-white/60 bg-white px-8 py-6 text-base font-semibold text-primary shadow-[var(--shadow-elegant)] transition-transform hover:scale-[1.02] hover:bg-white/95 sm:text-lg"
           >
             <Link to="/booking">📿 {t.hero.book}</Link>
           </Button>
