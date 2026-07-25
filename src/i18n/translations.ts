@@ -219,7 +219,7 @@ export const translations = {
       book: "ಪೂರ್ವಬುಕ್ಕಿಂಗ್",
     },
     hero: {
-      eyebrow: "ಶ್ರೀಕಣ್ವಮಠ, ಯಲಹಂಕ",
+      eyebrow: "\n",
       titleTop: "ಶ್ರದ್ಧೆಯಿಂದ ಪಿತೃಸೇವೆ",
       titleBottom: "ಶಾಸ್ತ್ರೋಕ್ತವಾಗಿ ಪಿತೃಕಾರ್ಯ",
       subtitle:
