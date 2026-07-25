@@ -390,7 +390,7 @@ export const translations = {
       services: "ಸೇವೆಗಳು",
       contactDetails: "ಸಂಪರ್ಕ",
       hours: "ಸಮಯ",
-      hoursValue: "ಪ್ರತಿ ದಿನ · ಬೆಳಗ್ಗೆ 6:00 – ರಾತ್ರಿ 8:00",
+      hoursValue: "ಪ್ರತಿ ದಿನ · ಬೆಳಗ್ಗೆ 6:00 – ಸಂಜೆ 6:00",
       map: "ಸ್ಥಳ",
       tagline: "ಶ್ರದ್ಧೆಯಿಂದ ಧರ್ಮಸೇವೆ",
       rights: "ಎಲ್ಲ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿವೆ.",
