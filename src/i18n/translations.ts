@@ -18,7 +18,7 @@ export const translations = {
       book: "Book a Ceremony",
     },
     hero: {
-      eyebrow: "Under Shri Kanva Matha, Yelahanka",
+      eyebrow: "TRIMATHASTHARIGE",
       titleTop: "Serving Ancestors with Devotion",
       titleBottom: "Through Authentic Vedic Traditions",
       subtitle:
@@ -34,7 +34,7 @@ export const translations = {
       body:
         "Every ceremony at the Bhavan is guided by learned Vedic priests who follow the procedures laid down in the Shastras. From arranging Brahmins and puja materials to preparing traditional bhojana, we take care of every detail so that families can focus entirely on remembering and honouring their ancestors in a serene environment.",
       pillars: [
-        { title: "Authentic Vedic Traditions", desc: "Every rite performed in strict accordance with the Shukla Yajurveda Shastras." },
+        { title: "Authentic Vedic Traditions", desc: "Every rite performed in strict accordance with the Shastras." },
         { title: "Experienced Vedic Priests", desc: "Learned scholars well versed in Pitru Karya vidhi and mantras." },
         { title: "Sacred Environment", desc: "A calm, clean and consecrated space that helps you focus on devotion." },
         { title: "Complete Ritual Assistance", desc: "Brahmins, puja materials, seating and bhojana — all arranged for you." },
@@ -45,45 +45,16 @@ export const translations = {
     services: {
       eyebrow: "Our Services",
       title: "Ceremonies Conducted at the Bhavan",
-      subtitle: "All Pitru Karyas are performed strictly according to Shukla Yajurveda vidhi.",
+      subtitle: "All Pitru Karyas are performed strictly according to the Vedas.",
       items: [
-        { title: "Shraddha", desc: "Traditional Shraddha ceremonies performed with complete Shastric procedure." },
-        { title: "Masika Shraddha", desc: "Monthly Shraddha observances during the first year after the departure of a loved one." },
-        { title: "Annual Tithi (Varshika)", desc: "Yearly remembrance ceremony on the tithi of the departed ancestor." },
-        { title: "Hiranya Shraddha", desc: "Shraddha performed with hiranya sankalpa where the traditional rites are supplemented appropriately." },
-        { title: "Amavasya Tarpana", desc: "Monthly Amavasya tarpana offerings for the peace of ancestors." },
-        { title: "Mahalaya Paksha Shraddha", desc: "Special Shraddha performed during the sacred Mahalaya Paksha fortnight." },
-        { title: "Pinda Pradana", desc: "Sacred offering of pindas with darbha, til and mantras for ancestor blessings." },
-        { title: "Vaikuntha Samaradhane", desc: "Samaradhane ceremony conducted with reverence and traditional bhojana." },
-        { title: "Brahmin Arrangement", desc: "Learned Brahmins arranged in the required numbers for each ceremony." },
-        { title: "Puja Material Arrangement", desc: "All required samagri — darbha, til, flowers, vessels — arranged in full." },
-        { title: "Traditional Bhojana", desc: "Sattvic meals prepared and served in the traditional manner on banana leaf." },
-        { title: "Ritual Guidance", desc: "Step-by-step guidance by priests so that every family can perform the rites with confidence." },
-      ],
-    },
-    facilities: {
-      eyebrow: "Facilities",
-      title: "Everything Arranged with Care",
-      items: [
-        { title: "Spacious Shraddha Hall", desc: "A large, well-ventilated hall suitable for family gatherings." },
-        { title: "Clean Dining Area", desc: "Hygienic dining hall for traditional bhojana." },
-        { title: "Pinda Pradana Space", desc: "A dedicated, sanctified area for pinda pradana." },
-        { title: "Tarpana Area", desc: "A separate space arranged for tarpana offerings." },
-        { title: "Peaceful Environment", desc: "A serene atmosphere that supports devotion and focus." },
-        { title: "Parking Facility", desc: "Convenient parking for family members and guests." },
-        { title: "Advance Booking", desc: "Reserve your ceremony date in advance with ease." },
-        { title: "Clean Washrooms", desc: "Well-maintained washrooms for the comfort of all visitors." },
-        { title: "Comfortable Seating", desc: "Comfortable seating arrangements, mindful of senior citizens." },
-        { title: "Traditional Ritual Setup", desc: "Complete traditional setup ready for each Pitru Karya." },
-      ],
-    },
+...
     whyUs: {
       eyebrow: "Why Choose Us",
       title: "Trust Rooted in Tradition",
       items: [
         { title: "Shastra-compliant Rituals", desc: "Every step performed as prescribed by the Shastras." },
-        { title: "Experienced Vedic Scholars", desc: "Priests with deep knowledge of Shukla Yajurveda vidhi." },
-        { title: "Traditional Procedures", desc: "Adherence to authentic Shukla Yajurveda customs." },
+        { title: "Experienced Vedic Scholars", desc: "Priests with deep knowledge of the Vedas." },
+        { title: "Traditional Procedures", desc: "Adherence to authentic Vedic customs." },
         { title: "Clean and Peaceful Setting", desc: "A well-kept, sacred environment for every family." },
         { title: "End-to-End Assistance", desc: "From sankalpa to bhojana, we handle every arrangement." },
         { title: "Organized Management", desc: "Ceremonies scheduled and conducted in a disciplined manner." },
@@ -137,7 +108,7 @@ export const translations = {
       eyebrow: "Frequently Asked Questions",
       title: "Answers to Common Questions",
       items: [
-        { q: "What ceremonies are conducted at the Bhavan?", a: "We conduct Shraddha, Masika, Annual Tithi, Hiranya Shraddha, Amavasya Tarpana, Mahalaya Paksha Shraddha, Pinda Pradana, Vaikuntha Samaradhane and other Pitru Karyas as per Shukla Yajurveda vidhi." },
+        { q: "What ceremonies are conducted at the Bhavan?", a: "We conduct Shraddha, Masika, Annual Tithi, Hiranya Shraddha, Amavasya Tarpana, Mahalaya Paksha Shraddha, Pinda Pradana, Vaikuntha Samaradhane and other Pitru Karyas as per Vedic traditions." },
         { q: "How do I book a ceremony?", a: "You can call us, message us on WhatsApp, or fill the enquiry form on the Booking page. Our team will confirm the date and arrangements." },
         { q: "Can Brahmins be arranged?", a: "Yes. Learned Brahmins are arranged by us in the required numbers for each ceremony." },
         { q: "Are puja materials provided?", a: "Yes. Complete puja samagri — darbha, til, flowers, vessels and all traditional items — is arranged by the Bhavan." },
@@ -152,7 +123,6 @@ export const translations = {
       subtitle: "We welcome your enquiries with warmth and respect.",
       addressLabel: "Address",
       addressLines: [
-        "Shri Shukla Yajurveda Shraddha Bhavan",
         "Shri Kanva Matha, Sante Beedi",
         "Yelahanka, Bengaluru – 560064",
       ],
@@ -338,7 +308,7 @@ export const translations = {
       eyebrow: "ಪ್ರಶ್ನೋತ್ತರಗಳು",
       title: "ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ",
       items: [
-        { q: "ಭವನದಲ್ಲಿ ಯಾವ ಕಾರ್ಯಗಳನ್ನು ನೆರವೇರಿಸಲಾಗುತ್ತದೆ?", a: "ಶ್ರಾದ್ಧ, ಮಾಸಿಕ, ವಾರ್ಷಿಕ ತಿಥಿ, ಹಿರಣ್ಯ ಶ್ರಾದ್ಧ, ಅಮಾವಾಸ್ಯೆ ತರ್ಪಣ, ಮಹಾಲಯ ಪಕ್ಷ ಶ್ರಾದ್ಧ, ಪಿಂಡಪ್ರದಾನ, ವೈಕುಂಠ ಸಮಾರಾಧನೆ ಹಾಗೂ ಇತರ ಪಿತೃಕಾರ್ಯಗಳನ್ನು ಶುಕ್ಲಯಜುರ್ವೇದ ವಿಧಿಪ್ರಕಾರ ನೆರವೇರಿಸಲಾಗುತ್ತದೆ." },
+        { q: "ಭವನದಲ್ಲಿ ಯಾವ ಕಾರ್ಯಗಳನ್ನು ನೆರವೇರಿಸಲಾಗುತ್ತದೆ?", a: "ಶ್ರಾದ್ಧ, ಮಾಸಿಕ, ವಾರ್ಷಿಕ ತಿಥಿ, ಹಿರಣ್ಯ ಶ್ರಾದ್ಧ, ಅಮಾವಾಸ್ಯೆ ತರ್ಪಣ, ಮಹಾಲಯ ಪಕ್ಷ ಶ್ರಾದ್ಧ, ಪಿಂಡಪ್ರದಾನ, ವೈಕುಂಠ ಸಮಾರಾಧನೆ ಹಾಗೂ ಇತರ ಪಿತೃಕಾರ್ಯಗಳನ್ನು ಶಾಸ್ತ್ರೋಕ್ತ ವಿಧಿಪ್ರಕಾರ ನೆರವೇರಿಸಲಾಗುತ್ತದೆ." },
         { q: "ಕಾರ್ಯವನ್ನು ಬುಕ್ ಮಾಡುವುದು ಹೇಗೆ?", a: "ದೂರವಾಣಿ ಕರೆ, ವಾಟ್ಸಪ್ ಸಂದೇಶ ಅಥವಾ ಬುಕ್ಕಿಂಗ್ ಪುಟದ ವಿಚಾರಣಾ ಫಾರ್ಮ್ ಮೂಲಕ ಸಂಪರ್ಕಿಸಬಹುದು. ನಮ್ಮ ತಂಡ ದಿನಾಂಕ ಹಾಗೂ ವ್ಯವಸ್ಥೆ ದೃಢೀಕರಿಸುತ್ತದೆ." },
         { q: "ಬ್ರಾಹ್ಮಣರ ವ್ಯವಸ್ಥೆ ಮಾಡಲಾಗುತ್ತದೆಯೇ?", a: "ಹೌದು. ಪ್ರತಿ ಕಾರ್ಯಕ್ಕೆ ಅಗತ್ಯವಾದ ಸಂಖ್ಯೆಯ ವಿದ್ವಾಂಸ ಬ್ರಾಹ್ಮಣರ ವ್ಯವಸ್ಥೆ ನಮ್ಮಿಂದ ಮಾಡಲಾಗುತ್ತದೆ." },
         { q: "ಪೂಜಾಸಾಮಗ್ರಿ ಒದಗಿಸಲಾಗುತ್ತದೆಯೇ?", a: "ಹೌದು. ದರ್ಭೆ, ತಿಲ, ಪುಷ್ಪ, ಪಾತ್ರೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಸಾಂಪ್ರದಾಯಿಕ ಸಾಮಗ್ರಿಗಳನ್ನು ಭವನದಿಂದ ಒದಗಿಸಲಾಗುತ್ತದೆ." },
