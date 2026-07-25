@@ -123,7 +123,6 @@ export const translations = {
       subtitle: "We welcome your enquiries with warmth and respect.",
       addressLabel: "Address",
       addressLines: [
-        "Shri Shukla Yajurveda Shraddha Bhavan",
         "Shri Kanva Matha, Sante Beedi",
         "Yelahanka, Bengaluru – 560064",
       ],
