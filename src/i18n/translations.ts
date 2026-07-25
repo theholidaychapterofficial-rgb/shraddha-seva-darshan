@@ -108,7 +108,7 @@ export const translations = {
       eyebrow: "Frequently Asked Questions",
       title: "Answers to Common Questions",
       items: [
-        { q: "What ceremonies are conducted at the Bhavan?", a: "We conduct Shraddha, Masika, Annual Tithi, Hiranya Shraddha, Amavasya Tarpana, Mahalaya Paksha Shraddha, Pinda Pradana, Vaikuntha Samaradhane and other Pitru Karyas as per Shukla Yajurveda vidhi." },
+        { q: "What ceremonies are conducted at the Bhavan?", a: "We conduct Shraddha, Masika, Annual Tithi, Hiranya Shraddha, Amavasya Tarpana, Mahalaya Paksha Shraddha, Pinda Pradana, Vaikuntha Samaradhane and other Pitru Karyas as per Vedic traditions." },
         { q: "How do I book a ceremony?", a: "You can call us, message us on WhatsApp, or fill the enquiry form on the Booking page. Our team will confirm the date and arrangements." },
         { q: "Can Brahmins be arranged?", a: "Yes. Learned Brahmins are arranged by us in the required numbers for each ceremony." },
         { q: "Are puja materials provided?", a: "Yes. Complete puja samagri — darbha, til, flowers, vessels and all traditional items — is arranged by the Bhavan." },
