@@ -219,7 +219,7 @@ export const translations = {
       book: "ಪೂರ್ವಬುಕ್ಕಿಂಗ್",
     },
     hero: {
-      eyebrow: "\n",
+      eyebrow: "ತ್ರಿಮತಸ್ಥರಿಗೆ",
       titleTop: "ಶ್ರದ್ಧೆಯಿಂದ ಪಿತೃಸೇವೆ",
       titleBottom: "ಶಾಸ್ತ್ರೋಕ್ತವಾಗಿ ಪಿತೃಕಾರ್ಯ",
       subtitle:
