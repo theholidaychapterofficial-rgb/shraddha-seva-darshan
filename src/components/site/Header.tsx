@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useLang } from "@/i18n/LanguageProvider";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logoUrl from "@/assets/logo.jpg";
+import logoAsset from "@/assets/logo.png.asset.json";
+const logoUrl = logoAsset.url;
 
 const navItems = [
   { to: "/", key: "home" as const },
