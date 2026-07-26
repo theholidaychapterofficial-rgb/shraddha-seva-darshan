@@ -30,7 +30,7 @@ export const translations = {
       eyebrow: "About the Bhavan",
       title: "A Sacred Space for Ancestral Rites",
       intro:
-        "Shri Chidambara Shraddha Bhavan was established under Shri Kanva Matha to provide families with a dedicated, dignified place for conducting Pitru Karyas in accordance with the Shukla Yajurveda tradition.",
+        "Shri Chidambara Shraddha Bhavan was established under Shri Kanva Matha to provide families with a dedicated, dignified place for conducting Pitru Karyas in accordance with With our vedic tradition.",
       body:
         "Every ceremony at the Bhavan is guided by learned Vedic priests who follow the procedures laid down in the Shastras. From arranging Brahmins and puja materials to preparing traditional bhojana, we take care of every detail so that families can focus entirely on remembering and honouring their ancestors in a serene environment.",
       pillars: [
