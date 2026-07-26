@@ -3,7 +3,7 @@ export type Lang = "kn" | "en";
 export const translations = {
   en: {
     meta: {
-      siteName: "Shri Shukla Yajurveda Shraddha Bhavan",
+      siteName: "Shri Chidambara Shraddha Bhavan",
       tagline: "Serving Dharma with Devotion",
     },
     nav: {
@@ -22,7 +22,7 @@ export const translations = {
       titleTop: "Serving Ancestors with Devotion",
       titleBottom: "Through Authentic Vedic Traditions",
       subtitle:
-        "Pitru Karyas are not merely rituals; they represent gratitude, dharma, and the sacred bond with our ancestors. Shri Shukla Yajurveda Shraddha Bhavan provides a peaceful and spiritually enriching environment where all ancestral ceremonies are conducted according to Shastras under experienced Vedic scholars.",
+        "Pitru Karyas are not merely rituals; they represent gratitude, dharma, and the sacred bond with our ancestors. Shri Chidambara Shraddha Bhavan provides a peaceful and spiritually enriching environment where all ancestral ceremonies are conducted according to Shastras under experienced Vedic scholars.",
       book: "Book a Ceremony",
       contact: "Contact Us",
     },
@@ -30,7 +30,7 @@ export const translations = {
       eyebrow: "About the Bhavan",
       title: "A Sacred Space for Ancestral Rites",
       intro:
-        "Shri Shukla Yajurveda Shraddha Bhavan was established under Shri Kanva Matha to provide families with a dedicated, dignified place for conducting Pitru Karyas in accordance with the Shukla Yajurveda tradition.",
+        "Shri Chidambara Shraddha Bhavan was established under Shri Kanva Matha to provide families with a dedicated, dignified place for conducting Pitru Karyas in accordance with the Shukla Yajurveda tradition.",
       body:
         "Every ceremony at the Bhavan is guided by learned Vedic priests who follow the procedures laid down in the Shastras. From arranging Brahmins and puja materials to preparing traditional bhojana, we take care of every detail so that families can focus entirely on remembering and honouring their ancestors in a serene environment.",
       pillars: [
@@ -203,7 +203,7 @@ export const translations = {
 
   kn: {
     meta: {
-      siteName: "ಶ್ರೀ ಶುಕ್ಲಯಜುರ್ವೇದ ಶ್ರಾದ್ಧಭವನ",
+      siteName: "ಶ್ರೀ ಚಿದಂಬರ ಶ್ರಾದ್ಧಭವನ",
       tagline: "ಶ್ರದ್ಧೆಯಿಂದ ಧರ್ಮಸೇವೆ",
     },
     nav: {
@@ -222,7 +222,7 @@ export const translations = {
       titleTop: "ಶ್ರದ್ಧೆಯಿಂದ ಪಿತೃಸೇವೆ",
       titleBottom: "ಶಾಸ್ತ್ರೋಕ್ತವಾಗಿ ಪಿತೃಕಾರ್ಯ",
       subtitle:
-        "ಪಿತೃಕಾರ್ಯಗಳು ಕೇವಲ ಆಚರಣೆಗಳಲ್ಲ; ಅವು ಪಿತೃಗಳಿಗೆ ಸಲ್ಲಿಸುವ ಕೃತಜ್ಞತೆ, ಧರ್ಮ ಹಾಗೂ ಪವಿತ್ರ ಬಂಧನದ ಸಂಕೇತ. ಶ್ರೀ ಶುಕ್ಲಯಜುರ್ವೇದ ಶ್ರಾದ್ಧಭವನವು ಅನುಭವಿ ವೇದವಿದ್ವಾಂಸರ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ, ಶಾಸ್ತ್ರೋಕ್ತವಾಗಿ ಎಲ್ಲ ಪಿತೃಕಾರ್ಯಗಳನ್ನು ನೆರವೇರಿಸಲು ಶಾಂತ ಹಾಗೂ ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಪೂರಕವಾದ ಪವಿತ್ರ ಪರಿಸರವನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "ಪಿತೃಕಾರ್ಯಗಳು ಕೇವಲ ಆಚರಣೆಗಳಲ್ಲ; ಅವು ಪಿತೃಗಳಿಗೆ ಸಲ್ಲಿಸುವ ಕೃತಜ್ಞತೆ, ಧರ್ಮ ಹಾಗೂ ಪವಿತ್ರ ಬಂಧನದ ಸಂಕೇತ. ಶ್ರೀ ಚಿದಂಬರ ಶ್ರಾದ್ಧಭವನವು ಅನುಭವಿ ವೇದವಿದ್ವಾಂಸರ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ, ಶಾಸ್ತ್ರೋಕ್ತವಾಗಿ ಎಲ್ಲ ಪಿತೃಕಾರ್ಯಗಳನ್ನು ನೆರವೇರಿಸಲು ಶಾಂತ ಹಾಗೂ ಆಧ್ಯಾತ್ಮಿಕವಾಗಿ ಪೂರಕವಾದ ಪವಿತ್ರ ಪರಿಸರವನ್ನು ಒದಗಿಸುತ್ತದೆ.",
       book: "ಪೂರ್ವಬುಕ್ಕಿಂಗ್",
       contact: "ಸಂಪರ್ಕಿಸಿ",
     },
@@ -230,7 +230,7 @@ export const translations = {
       eyebrow: "ಭವನದ ಕುರಿತು",
       title: "ಪಿತೃಕಾರ್ಯಗಳಿಗಾಗಿ ಪವಿತ್ರ ಸ್ಥಳ",
       intro:
-        "ಶ್ರೀ ಶುಕ್ಲಯಜುರ್ವೇದ ಶ್ರಾದ್ಧಭವನವು ಶ್ರೀ ಕಣ್ವಮಠದ ಆಶ್ರಯದಲ್ಲಿ, ಕುಟುಂಬಗಳಿಗೆ ಶುಕ್ಲಯಜುರ್ವೇದ ಸಂಪ್ರದಾಯದ ಪ್ರಕಾರ ಪಿತೃಕಾರ್ಯಗಳನ್ನು ನೆರವೇರಿಸಲು ಸಮರ್ಪಿತವಾದ ಪವಿತ್ರ ಸ್ಥಳವಾಗಿ ಸ್ಥಾಪಿತವಾಗಿದೆ.",
+        "ಶ್ರೀ ಚಿದಂಬರ ಶ್ರಾದ್ಧಭವನವು ಶ್ರೀ ಕಣ್ವಮಠದ ಆಶ್ರಯದಲ್ಲಿ, ಕುಟುಂಬಗಳಿಗೆ ಶುಕ್ಲಯಜುರ್ವೇದ ಸಂಪ್ರದಾಯದ ಪ್ರಕಾರ ಪಿತೃಕಾರ್ಯಗಳನ್ನು ನೆರವೇರಿಸಲು ಸಮರ್ಪಿತವಾದ ಪವಿತ್ರ ಸ್ಥಳವಾಗಿ ಸ್ಥಾಪಿತವಾಗಿದೆ.",
       body:
         "ಪ್ರತಿ ಕಾರ್ಯವನ್ನೂ ಶಾಸ್ತ್ರೋಕ್ತವಿಧಿಯನ್ನು ಚೆನ್ನಾಗಿ ತಿಳಿದಿರುವ ಅನುಭವಿ ವೇದವಿದ್ವಾಂಸರ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ ನಡೆಸಲಾಗುತ್ತದೆ. ಬ್ರಾಹ್ಮಣರ ವ್ಯವಸ್ಥೆ, ಪೂಜಾಸಾಮಗ್ರಿಗಳು, ಸಾಂಪ್ರದಾಯಿಕ ಭೋಜನ ವ್ಯವಸ್ಥೆ ಸೇರಿದಂತೆ ಎಲ್ಲ ಸೂಕ್ಷ್ಮ ವಿಷಯಗಳನ್ನೂ ನಾವು ನಿರ್ವಹಿಸುತ್ತೇವೆ, ಇದರಿಂದ ಕುಟುಂಬಗಳು ಪೂರ್ಣ ಶ್ರದ್ಧೆಯಿಂದ ಪಿತೃಸ್ಮರಣೆಯಲ್ಲಿ ತೊಡಗಬಹುದು.",
       pillars: [
