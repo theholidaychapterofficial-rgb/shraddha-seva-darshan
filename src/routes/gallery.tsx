@@ -6,9 +6,9 @@ import { useLang } from "@/i18n/LanguageProvider";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery | Vedic Rituals at Shri Shukla Yajurveda Shraddha Bhavan" },
+      { title: "Gallery | Vedic Rituals at Pitrukarya | Shri Chidambara Shraddha Bhavan" },
       { name: "description", content: "Glimpses of Vedic rituals, kalasha, darbha, til, Pinda Pradana, dining arrangements and the prayer hall at the Bhavan." },
-      { property: "og:title", content: "Gallery | Shri Shukla Yajurveda Shraddha Bhavan" },
+      { property: "og:title", content: "Gallery | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
       { property: "og:description", content: "Sacred rituals and the spiritual ambience of the Bhavan." },
       { property: "og:url", content: "/gallery" },
     ],

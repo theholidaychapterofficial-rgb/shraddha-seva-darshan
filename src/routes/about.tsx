@@ -8,9 +8,9 @@ import { useLang } from "@/i18n/LanguageProvider";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About the Bhavan | Shri Shukla Yajurveda Shraddha Bhavan, Yelahanka" },
-      { name: "description", content: "About Shri Shukla Yajurveda Shraddha Bhavan under Shri Kanva Matha — a sacred space in Yelahanka, Bengaluru dedicated to Pitru Karyas per Shukla Yajurveda tradition." },
-      { property: "og:title", content: "About | Shri Shukla Yajurveda Shraddha Bhavan" },
+      { title: "About the Bhavan | Pitrukarya | Shri Chidambara Shraddha Bhavan, Yelahanka" },
+      { name: "description", content: "About Pitrukarya | Shri Chidambara Shraddha Bhavan under Shri Kanva Matha — a sacred space in Yelahanka, Bengaluru dedicated to Pitru Karyas per Vedic tradition." },
+      { property: "og:title", content: "About | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
       { property: "og:description", content: "Learn about the tradition, priests and philosophy of the Bhavan." },
       { property: "og:url", content: "/about" },
     ],

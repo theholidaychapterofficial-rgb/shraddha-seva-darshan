@@ -126,8 +126,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ReligiousOrganization",
-          name: "Shri Shukla Yajurveda Shraddha Bhavan",
-          alternateName: "ಶ್ರೀ ಶುಕ್ಲಯಜುರ್ವೇದ ಶ್ರಾದ್ಧಭವನ",
+          name: "Shri Chidambara Shraddha Bhavan",
+          alternateName: "ಶ್ರೀ ಚಿದಂಬರ ಶ್ರಾದ್ಧಭವನ",
+          logo: OG_IMAGE,
+          url: "https://shraddha-seva-darshan.lovable.app/",
           description: SITE_DESC,
           parentOrganization: { "@type": "ReligiousOrganization", name: "Shri Kanva Matha" },
           address: {

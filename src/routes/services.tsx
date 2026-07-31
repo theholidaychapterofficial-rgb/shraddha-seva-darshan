@@ -9,7 +9,7 @@ export const Route = createFileRoute("/services")({
     meta: [
       { title: "Pitru Karya Services | Shraddha, Pinda Pradana, Tarpana — Bengaluru" },
       { name: "description", content: "Shraddha, Masika, Annual Tithi, Hiranya Shraddha, Amavasya Tarpana, Mahalaya Paksha Shraddha, Pinda Pradana, Vaikuntha Samaradhane and more — performed per Shukla Yajurveda." },
-      { property: "og:title", content: "Services | Shri Shukla Yajurveda Shraddha Bhavan" },
+      { property: "og:title", content: "Services | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
       { property: "og:description", content: "All Pitru Karyas conducted per Shukla Yajurveda vidhi." },
       { property: "og:url", content: "/services" },
     ],

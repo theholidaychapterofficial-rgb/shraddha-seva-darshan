@@ -6,9 +6,9 @@ import { useLang } from "@/i18n/LanguageProvider";
 export const Route = createFileRoute("/facilities")({
   head: () => ({
     meta: [
-      { title: "Facilities | Shri Shukla Yajurveda Shraddha Bhavan, Yelahanka" },
+      { title: "Facilities | Pitrukarya | Shri Chidambara Shraddha Bhavan, Yelahanka" },
       { name: "description", content: "Spacious Shraddha hall, dining area, dedicated Pinda Pradana and tarpana spaces, parking, comfortable seating and complete ritual setup at the Bhavan." },
-      { property: "og:title", content: "Facilities | Shri Shukla Yajurveda Shraddha Bhavan" },
+      { property: "og:title", content: "Facilities | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
       { property: "og:description", content: "Everything arranged with care for a peaceful ceremony." },
       { property: "og:url", content: "/facilities" },
     ],
