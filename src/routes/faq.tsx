@@ -9,9 +9,9 @@ export const Route = createFileRoute("/faq")({
     const faqs = translations.en.faq.items;
     return {
       meta: [
-        { title: "Frequently Asked Questions | Shri Shukla Yajurveda Shraddha Bhavan" },
+        { title: "Frequently Asked Questions | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
         { name: "description", content: "Answers to common questions about ceremonies, booking, Brahmin arrangements, puja materials and facilities at the Bhavan." },
-        { property: "og:title", content: "FAQs | Shri Shukla Yajurveda Shraddha Bhavan" },
+        { property: "og:title", content: "FAQs | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
         { property: "og:description", content: "Answers to the most common questions from families." },
         { property: "og:url", content: "/faq" },
       ],

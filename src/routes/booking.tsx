@@ -7,9 +7,9 @@ import { useLang } from "@/i18n/LanguageProvider";
 export const Route = createFileRoute("/booking")({
   head: () => ({
     meta: [
-      { title: "Book a Ceremony | Shri Shukla Yajurveda Shraddha Bhavan" },
-      { name: "description", content: "Reserve your Pitru Karya ceremony at Shri Shukla Yajurveda Shraddha Bhavan, Yelahanka. Advance booking recommended, especially during Mahalaya Paksha." },
-      { property: "og:title", content: "Book a Ceremony | Shri Shukla Yajurveda Shraddha Bhavan" },
+      { title: "Book a Ceremony | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
+      { name: "description", content: "Reserve your Pitru Karya ceremony at Pitrukarya | Shri Chidambara Shraddha Bhavan, Yelahanka. Advance booking recommended, especially during Mahalaya Paksha." },
+      { property: "og:title", content: "Book a Ceremony | Pitrukarya | Shri Chidambara Shraddha Bhavan" },
       { property: "og:description", content: "Simple steps to reserve your ceremony." },
       { property: "og:url", content: "/booking" },
     ],

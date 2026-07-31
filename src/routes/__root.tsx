@@ -86,9 +86,10 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   );
 }
 
-const SITE_TITLE = "Shri Shukla Yajurveda Shraddha Bhavan | Vedic Pitru Karya, Yelahanka, Bengaluru";
+const SITE_TITLE = "Pitrukarya | Authentic Pitru Karma & Shraddha Services";
 const SITE_DESC =
-  "Shri Shukla Yajurveda Shraddha Bhavan under Shri Kanva Matha, Yelahanka, Bengaluru — Shraddha, Pinda Pradana, Tarpana and all Pitru Karyas performed according to Shukla Yajurveda Shastras.";
+  "Shri Chidambara Shraddha Bhavan under Shri Kanva Matha, Yelahanka, Bengaluru — authentic Pitru Karma, Shraddha, Pinda Pradana and Tarpana services performed strictly as per the Shastras.";
+const OG_IMAGE = "https://shraddha-seva-darshan.lovable.app/og-logo.png";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
@@ -97,27 +98,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: SITE_TITLE },
       { name: "description", content: SITE_DESC },
-      { name: "author", content: "Shri Shukla Yajurveda Shraddha Bhavan" },
+      { name: "author", content: "Shri Chidambara Shraddha Bhavan" },
       { name: "theme-color", content: "#5b1a1a" },
-      { property: "og:site_name", content: "Shri Shukla Yajurveda Shraddha Bhavan" },
+      { property: "og:site_name", content: "Pitrukarya — Shri Chidambara Shraddha Bhavan" },
       { property: "og:title", content: SITE_TITLE },
       { property: "og:description", content: SITE_DESC },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: SITE_TITLE },
       { name: "twitter:description", content: SITE_DESC },
-      { title: "shuklayajurvedashradhabhavana" },
-      { property: "og:title", content: "shuklayajurvedashradhabhavana" },
-      { name: "twitter:title", content: "shuklayajurvedashradhabhavana" },
-      { name: "description", content: "A bilingual website for Shri Shukla Yajurveda Shraddha Bhavan, offering authentic Vedic ancestral rituals." },
-      { property: "og:description", content: "A bilingual website for Shri Shukla Yajurveda Shraddha Bhavan, offering authentic Vedic ancestral rituals." },
-      { name: "twitter:description", content: "A bilingual website for Shri Shukla Yajurveda Shraddha Bhavan, offering authentic Vedic ancestral rituals." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/55ce2a77-0c08-40e6-ba1f-e7055f857e91/id-preview-77488609--76f9030d-e8b4-4f1e-b4c7-5cae26541b6d.lovable.app-1784286133743.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/55ce2a77-0c08-40e6-ba1f-e7055f857e91/id-preview-77488609--76f9030d-e8b4-4f1e-b4c7-5cae26541b6d.lovable.app-1784286133743.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.jpg", type: "image/x-icon" },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "apple-touch-icon", href: "/favicon.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -125,14 +119,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Serif+Kannada:wght@500;600;700&family=Noto+Sans+Kannada:wght@400;500;600&display=swap",
       },
     ],
+
     scripts: [
       {
         type: "application/ld+json",
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ReligiousOrganization",
-          name: "Shri Shukla Yajurveda Shraddha Bhavan",
-          alternateName: "ಶ್ರೀ ಶುಕ್ಲಯಜುರ್ವೇದ ಶ್ರಾದ್ಧಭವನ",
+          name: "Shri Chidambara Shraddha Bhavan",
+          alternateName: "ಶ್ರೀ ಚಿದಂಬರ ಶ್ರಾದ್ಧಭವನ",
+          logo: OG_IMAGE,
+          url: "https://shraddha-seva-darshan.lovable.app/",
           description: SITE_DESC,
           parentOrganization: { "@type": "ReligiousOrganization", name: "Shri Kanva Matha" },
           address: {
